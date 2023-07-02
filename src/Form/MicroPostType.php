@@ -15,7 +15,6 @@ class MicroPostType extends AbstractType
         $builder
             ->add('title')
             ->add('text')
-            ->add('submit', SubmitType::class, ['label' => 'Save'])
         ;
     }
 
